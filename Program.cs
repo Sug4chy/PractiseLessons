@@ -1,12 +1,16 @@
 ﻿using System;
 
-namespace Pohui
+namespace Task
 {
-    class Program
+    public class Program
     {
-        static void Main()
+        public static void Main()
         {
-            Console.WriteLine("Hello, World");
+            for (int i = 100; i < 200; i++)
+            {
+                if (i % 3 == 0)
+                    Console.WriteLine(i);
+            }
         }
     }
 }
