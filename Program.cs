@@ -1,9 +1,9 @@
 ﻿using System;
-namespace Pohui
+namespace Task
 {
-    class Program
+    public class Program
     {
-        static void Main()
+        public static void Main()
         {
             var a = int.Parse(Console.ReadLine());
             var b = int.Parse(Console.ReadLine());
