@@ -3,7 +3,7 @@ namespace Task
 {
     public class Program
     {
-        public static void Main()
+        public static void Task2()
         {
             var a = int.Parse(Console.ReadLine());
             var b = int.Parse(Console.ReadLine());
