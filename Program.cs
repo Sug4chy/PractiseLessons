@@ -1,14 +1,16 @@
 ﻿using System;
-
 namespace Task
 {
     public class Program
     {
         public static void Main()
         {
-            for (int i = 100; i < 200; i++)
+            var a = int.Parse(Console.ReadLine());
+            var b = int.Parse(Console.ReadLine());
+            var c = int.Parse(Console.ReadLine());
+            for (int i = a; i < b; i++)
             {
-                if (i % 3 == 0)
+                if (i % c == 0)
                     Console.WriteLine(i);
             }
         }
